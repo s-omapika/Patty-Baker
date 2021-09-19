@@ -1,0 +1,95 @@
+*{
+	margin:0px ;
+	padding: 0px;
+}
+
+body {
+	background-color: rgb(151, 146, 140);
+	
+  }
+  h2{
+	 margin: auto; 
+	 text-align: center;
+	 border: 1px solid palevioletred;
+	 background-color: palevioletred;
+	 padding: 2px;
+
+  }
+  .reg{
+	padding-top: 50px;
+  }
+
+  table {
+	margin: auto;
+	border: 2px solid rgb(150, 116, 123);
+	padding: 40px;
+	border-radius: 15px;
+	border-color: palevioletred;
+  }
+
+  tr,td {
+	padding: 5px;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	color: rgb(145, 57, 75);
+  }
+ #submit-button {
+	margin-left: 350px;
+	background-color:palevioletred;
+	padding: 12px;
+	border-radius: 10px;
+	font-weight: bold;
+  }
+#submit-button:hover {
+	cursor: pointer;
+	background-color: rgb(156, 68, 85);
+  
+}
+
+.menu {
+	background-color: rgb(156, 68, 85);
+	position: sticky;
+	z-index: 2;
+	top: 0;
+	
+  }
+  .menu ul {
+	list-style: none;
+  }
+  
+  .menu ul li {
+	display: inline-block;
+	position: relative;
+  }
+  .menu ul li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 20px 50px;
+  }
+  
+  .menu ul li a:hover {
+	color:  pink;
+  }
+ 
+  .menu ul li ul {
+	position: absolute;
+	background-color: rgb(167,104, 117);
+	width: 250px;
+	visibility: hidden;
+  }
+  
+  .menu ul li ul li {
+	border-bottom: 1px solid #777;
+	display: block;
+  }
+  .menu ul li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+  }
+  span{
+	  color: red;
+	  font-weight: bold;
+	  font-size: 14px;
+  }
